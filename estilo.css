@@ -124,7 +124,8 @@ body {
     font-size: 35px;
     color: #fff;
     background: #5d626e80;
-    border-radius: 20px;
+    border-radius: 50px;
+    align-items: center;
 }
 
 #contcubo1 {
