@@ -69,6 +69,7 @@ body {
     flex-wrap: wrap;
     width: max-content;
     padding: 0px 20px;
+    font-size: 20px;
 }
 
 #menu ul li a {
@@ -94,6 +95,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }
 
 #segura {
@@ -103,9 +105,8 @@ body {
 }
 
 #conteiner {
-    background: transparent url(https://vaps41.github.io/curso_ingles_instrumental/ingles_instrumental.jpg) no-repeat right -90px;
+    background: transparent url(/img/ingles-instrumental.jpg) no-repeat right -255px;
     mix-blend-mode: luminosity;
-    width: 100% !important;
     height: 250px;
     background-size: 100%;
     position: inherit;
@@ -120,7 +121,10 @@ body {
     display: flex;
     position: absolute;
     top: 265px;
-    font-size: 40px;
+    font-size: 35px;
+    color: #fff;
+    background: #5d626e80;
+    border-radius: 20px;
 }
 
 #contcubo1 {

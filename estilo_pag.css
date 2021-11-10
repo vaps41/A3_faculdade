@@ -1,0 +1,25 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color:white;
+}
+#corpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#f2f2f2;
+    width: 100%;
+    height: 100%;
+    margin:30px;
+}
+
+h1{
+    margin: 20px;
+}
