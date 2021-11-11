@@ -39,7 +39,8 @@ body {
     justify-content: space-around;
     width: 100%;
     margin-bottom: 40px;
-    font-size: 25PX;
+    font-size: 25px;
+    position:fixed;
 }
 
 #logo {
@@ -206,7 +207,7 @@ body {
         height: 65px;
         display: flex;
         flex-wrap: wrap;
-        position:fixed;
+        position:absolute;
         top: 271px;
         font-size: 20px;
         color: #fff;
