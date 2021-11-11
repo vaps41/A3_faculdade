@@ -175,7 +175,10 @@ body {
     background-color: #000000;
     padding: 10px 0px;
 }
-
+#chat{
+    display:none;
+    background: transparent;
+}
 @media (max-width:550px) {
     #corpo {
         width: 100%;
