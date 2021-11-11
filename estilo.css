@@ -199,6 +199,8 @@ body {
         position: inherit;
         background-origin: border-box;
         border-radius: 0;
+        margin:50px 0px;
+        padding:20px 0px;
     }
     #conteiner h1 {
         margin: 0px 50px;
@@ -206,7 +208,7 @@ body {
         height: 65px;
         display: flex;
         flex-wrap: wrap;
-        position:inherit;
+        position:static;
         top: 271px;
         font-size: 20px;
         color: #fff;
@@ -222,7 +224,7 @@ body {
         font-style: normal;
         font-size: 15px;
         text-align: justify;
-        padding: 50px;
+        padding: 25px 50px;
         line-height: 40px;
     }
     #inte {
