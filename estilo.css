@@ -169,6 +169,12 @@ body {
     height: 65px;
     font-size: 20px;
 }
+#roda_pe2 {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 10px 0px;
+}
 
 @media (max-width:550px) {
     #corpo {
@@ -253,5 +259,12 @@ body {
         width: 410px;
         height: 65px;
         font-size: 18px;
+    }
+        #roda_pe2 {
+        width: 100%;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #000000;
+        padding: 10px 0px;
     }
 }
