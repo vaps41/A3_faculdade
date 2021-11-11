@@ -184,6 +184,15 @@ body {
         border-radius: 60px;
         margin: 0px 15px;
     }
+    #conteiner {
+        background:none;
+        mix-blend-mode: luminosity;
+        height: 40px;
+        background-size: 100%;
+        position: inherit;
+        background-origin: border-box;
+        border-radius: 60px;  
+    }
     #conteiner h1 {
         margin: 0px 30px;
         padding: 5px 10px;
@@ -259,6 +268,16 @@ body {
         border-radius: 60px;
         margin: 0px 15px;
     }
+    #conteiner {
+        background:none;
+        mix-blend-mode: luminosity;
+        height: 40px;
+        background-size: 100%;
+        position: inherit;
+        background-origin: border-box;
+        border-radius: 60px;  
+    }
+    
     #conteiner h1 {
         margin: 0px 30px;
         padding: 5px 10px;
