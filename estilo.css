@@ -170,7 +170,7 @@ body {
     font-size: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width:550px) {
     #corpo {
         width: 100%;
         height: auto;
@@ -201,18 +201,18 @@ body {
         border-radius: 0;
     }
     #conteiner h1 {
-    margin: 0px 50px;
-    padding: 5px 10px;
-    height: 65px;
-    display: flex;
-    flex-wrap: wrap;
-    position:fixed;
-    top: 271px;
-    font-size: 20px;
-    color: #fff;
-    background: #5d626e80;
-    border-radius: 50px;
-    align-items: center;
+        margin: 0px 50px;
+        padding: 5px 10px;
+        height: 65px;
+        display: flex;
+        flex-wrap: wrap;
+        position:fixed;
+        top: 271px;
+        font-size: 20px;
+        color: #fff;
+        background: #5d626e80;
+        border-radius: 50px;
+        align-items: center;
     }
     #contcubo1 {
         background-color: #EAEFFB;
