@@ -185,27 +185,27 @@ body {
         margin: 0px 15px;
     }
     #conteiner {
-        background:none;
-        mix-blend-mode: luminosity;
-        height: 40px;
+        background: none;
+        mix-blend-mode: normal;
+        height: 60px;
         background-size: 100%;
         position: inherit;
         background-origin: border-box;
-        border-radius: 60px;  
+        border-radius: 0;
     }
     #conteiner h1 {
-        margin: 0px 30px;
-        padding: 5px 10px;
-        height: 65px;
-        display: flex;
-        flex-wrap: wrap;
-        position: absolute;
-        top: 300px;
-        font-size: 20px;
-        color: #fff;
-        background: #5d626e80;
-        border-radius: 50px;
-        align-items: center;
+    margin: 0px 132px;
+    padding: 5px 10px;
+    height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 226px;
+    font-size: 20px;
+    color: #fff;
+    background: #5d626e80;
+    border-radius: 50px;
+    align-items: center;
     }
     #contcubo1 {
         background-color: #EAEFFB;
@@ -269,28 +269,27 @@ body {
         margin: 0px 15px;
     }
     #conteiner {
-        background:none;
-        mix-blend-mode: luminosity;
-        height: 40px;
+        background: none;
+        mix-blend-mode: normal;
+        height: 60px;
         background-size: 100%;
         position: inherit;
         background-origin: border-box;
-        border-radius: 60px;  
+        border-radius: 0;
     }
-    
     #conteiner h1 {
-        margin: 0px 30px;
-        padding: 5px 10px;
-        height: 65px;
-        display: flex;
-        flex-wrap: wrap;
-        position: absolute;
-        top: 300px;
-        font-size: 20px;
-        color: #fff;
-        background: #5d626e80;
-        border-radius: 50px;
-        align-items: center;
+    margin: 0px 132px;
+    padding: 5px 10px;
+    height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 226px;
+    font-size: 20px;
+    color: #fff;
+    background: #5d626e80;
+    border-radius: 50px;
+    align-items: center;
     }
     #contcubo1 {
         background-color: #EAEFFB;
