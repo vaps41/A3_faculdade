@@ -7,11 +7,12 @@ function interesse(){
     if(block != true){
         document.getElementById("chat").style.display ="block";
         console.log("estou aqui");
+        block = false;
         return true;
     }else{
         document.getElementById("chat").style.display ="none";
         console.log("sai vazado");
+        block = true;
         return false;
     }
 }
-
