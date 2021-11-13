@@ -3,6 +3,7 @@
     margin: 0;
     text-decoration-color: none;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     align-items: center;
@@ -29,6 +30,29 @@ h1{
 button{
     cursor: pointer;
     padding: 20px;
+    background: #A1AEF5;
+    border: none;
+    border-radius: 42px;
+    width: 150px;
+    font-size: 20px;
+}
+
+#cliente{
+    background-color: rgb(227, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#cliente form{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+
+}
+.estilo{
+    cursor: pointer;
+    padding: 10px;
     background: #A1AEF5;
     border: none;
     border-radius: 42px;
