@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cursoinglesinstrumental.ml/estilo.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 </head>
 
 <body>
@@ -20,14 +21,17 @@
             </div>
             <nav id="menu">
                 <ul>
-                    <a id="home" href="https://cursoinglesinstrumental.ml/">
+                    <a class="home" href="https://cursoinglesinstrumental.ml/">
                         <li>Home</li>
                     </a>
-                    <a id="home" href="https://cursoinglesinstrumental.ml/sobre.html">
+                    <a class="home"href="https://cursoinglesinstrumental.ml/sobre.html">
                         <li>Carreira</li>
                     </a>
-                    <a id="home" href="https://cursoinglesinstrumental.ml/sobre.html">
+                    <a class="home" href="https://cursoinglesinstrumental.ml/sobre.html">
                         <li>Sobre</li>
+                    </a>
+                    <a class="home" href="https://cursoinglesinstrumental.ml/cliente.html">
+                        <li>Area de estudo</li>
                     </a>
                 </ul>
             </nav>
@@ -76,9 +80,9 @@
                 <button id="gostei" onclick=" return interesse()"><a>TENHO INTERESSE!</a></button>
             </div>
             <div id="chat">
-                <iframe width="350" height="430" allow="microphone;"
-                src="https://console.dialogflow.com/api-client/demo/embedded/7169aba1-e362-43e3-86e0-2dd331cb2256"></iframe>
-                https://bot.dialogflow.com/7169aba1-e362-43e3-86e0-2dd331cb2256
+                 <df-messenger chat-icon="https:&#x2F;&#x2F;cursoinglesinstrumental.ml&#x2F;logo.png" intent="WELCOME"
+                    chat-title="Intensive English" agent-id="3a1d11e4-029d-4a57-8147-efe275631b81" language-code="pt-br">
+                </df-messenger>
             </div>
       <div id="roda_pe2">
         <h4> ©Copyright <span id="hoje"></span> todos os direitos reservados Victor Andrade</h4>
@@ -88,5 +92,6 @@
 
 </body>
     <script src="https://cursoinglesinstrumental.ml/chatbot.js"></script>
+
 
 </html>
