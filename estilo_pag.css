@@ -63,6 +63,10 @@ button{
     width: 166px !important;
     font-size: 20px;
 }
+#login,#senha{
+    border-radius: 25px;
+    background-color: #fff;
+}
 #volta{
     align-items: center;
     text-align: center;
