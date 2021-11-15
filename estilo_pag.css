@@ -5,6 +5,10 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
+a{
+    text-decoration-style: none;
+    text-decoration: none;
+}
 body{
     align-items: center;
     display: flex;
@@ -56,6 +60,10 @@ button{
     background: #A1AEF5;
     border: none;
     border-radius: 42px;
-    width: 150px;
+    width: 166px;
     font-size: 20px;
+}
+#volta{
+    align-items: center;
+    text-align: center;
 }
