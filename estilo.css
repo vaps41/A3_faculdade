@@ -15,7 +15,7 @@ a {
 }
 
 body {
-    background-color: #F6F9FF;
+    background-color: #FFF;
     display: flex;
     height: auto;
     width: 100%;
@@ -25,7 +25,6 @@ body {
 }
 
 #corpo {
-    /* max-width: 1440px; */
     width: 100%;
     height: auto;
     margin-left: auto;
@@ -35,7 +34,7 @@ body {
 #header {
     display: flex;
     flex-direction: row;
-    background-color: #E0E9FF;
+    background-color: #dce6f2;
     justify-content: space-around;
     width: 100%;
     margin-bottom: 40px;
@@ -78,12 +77,16 @@ body {
     text-decoration: none;
     width: max-content;
 }
+.home{
+    padding:0px 2px;
+    color: #d98e04;
+}
 
 .home :hover {
-    background:#C6DFF6;
+    background:#7686a6;
     border-radius: 5px;
     text-decoration: underline;
-    padding:0px 3px;
+    padding:0px 2px;
 }
 
 #menu ul li {
@@ -99,7 +102,7 @@ body {
 }
 
 #segura {
-    background-color: #EAEFFB;
+    background-color:#dce6f285;
     border-radius: 60px;
     margin: 0px 70px;
 }
@@ -129,7 +132,7 @@ body {
 }
 
 #contcubo1 {
-    background-color: #EAEFFB;
+    background-color: #dce6f224;
     border-radius: 60px;
     height: auto;
     font-family: Roboto;
@@ -138,6 +141,7 @@ body {
     text-align: justify;
     padding: 50px;
     line-height: 40px;
+    color: #7686a6;
 }
 
 #inte {
@@ -149,6 +153,7 @@ body {
 #inte h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: #7686a6;
 }
 
 #inte button{
@@ -160,6 +165,7 @@ body {
     width: 400px;
     font-size: 20px;
     margin-bottom: 150px;
+    color: #f77f29;
 }
 #inte button:hover{
     cursor: pointer;
@@ -171,6 +177,7 @@ body {
     height: 65px;
     font-size: 20px;
     margin-bottom: 150px;
+    color: #f77f29;
 }
 #roda_pe2 {
     text-align: center;
@@ -192,14 +199,14 @@ body {
     #header {
         display: flex;
         flex-wrap: wrap;
-        background-color: #E0E9FF;
+        background-color: #dce6f2;
         justify-content: space-around;
         width: 100%;
         margin-bottom: 40px;
         font-size: 25px;
     }
     #segura {
-        background-color: #EAEFFB;
+        background-color:#dce6f285;
         border-radius: 60px;
         margin: 0px 15px;
     }
@@ -229,7 +236,7 @@ body {
         align-items: center;
     }
     #contcubo1 {
-        background-color: #EAEFFB;
+        background-color: #dce6f224;
         border-radius: 60px;
         height: auto;
         font-family: Roboto;
@@ -238,6 +245,7 @@ body {
         text-align: justify;
         padding: 25px 50px;
         line-height: 40px;
+        color: #7686a6;
     }
     #inte {
         margin-top: 50px;
@@ -247,6 +255,7 @@ body {
     #inte h2 {
         font-size: 27px;
         margin-bottom: 20px;
+        color: #7686a6;
     }
     #inte button {
         cursor: pointer;
@@ -257,6 +266,7 @@ body {
         width: 400px;
         font-size: 16px;
         margin-bottom: 90px;
+        color: #f77f29;
     }
     #inte button:hover {
         cursor: pointer;
@@ -268,6 +278,7 @@ body {
         height: 65px;
         font-size: 18px;
         margin-bottom: 90px;
+        color: #f77f29;
     }
         #roda_pe2 {
         width: 100%;
