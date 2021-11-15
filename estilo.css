@@ -194,6 +194,11 @@ body {
     display:none;
     background: transparent;
 }
+#professor{
+    margin-top: 0rem;
+    max-height: 100%;
+    max-width: 100%;
+}
 @media (max-width:550px) {
     #corpo {
         width: 100%;
@@ -303,5 +308,10 @@ body {
         color: #FFFFFF;
         background-color: #000000;
         padding: 10px 0px;
+    }
+        #professor{
+        margin-top: 4rem;
+        max-height: 100%;
+        max-width: 100%;
     }
 }
