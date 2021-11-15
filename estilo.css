@@ -148,7 +148,6 @@ body {
     line-height: 40px;
     color: #7686a6;
 }
-
 #inte {
     margin-top: 50px;
     text-align: center;
@@ -267,6 +266,9 @@ body {
         padding: 25px 50px;
         line-height: 40px;
         color: #7686a6;
+    }
+    #contcubo1 h1{
+        font-size: 25px;
     }
     #inte {
         margin-top: 50px;
