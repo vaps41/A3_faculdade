@@ -60,7 +60,7 @@ button{
     background: #A1AEF5;
     border: none;
     border-radius: 42px;
-    width: 166px;
+    width: 166px !important;
     font-size: 20px;
 }
 #volta{
