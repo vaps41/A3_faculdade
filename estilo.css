@@ -79,7 +79,7 @@ body {
     width: max-content;
 }
 
-#home :hover {
+.home :hover {
     background:#C6DFF6;
     border-radius: 5px;
     text-decoration: underline;
