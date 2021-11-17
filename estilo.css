@@ -198,6 +198,11 @@ body {
     max-height: 100%;
     max-width: 100%;
 }
+#aplicativo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media (max-width:550px) {
     #corpo {
         width: 100%;
