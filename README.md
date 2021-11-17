@@ -9,7 +9,7 @@
 * ✔️ Javascript
 
 # 💻 Project
-* O foco do projeto é o uso do chatbot feito com a plataforma Dialogflow para vender curso de inglês.
+* O foco do projeto é o uso do chatbot feito com a plataforma Dialogflow para oferecer curso de inglês.
 * Este projeto está em andamento.
 
 # ⚙ Plataforma utilizada
