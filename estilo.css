@@ -226,6 +226,9 @@ body {
         margin-top: -25px;
         width: max-content;
     }
+    #title img{
+        width: 40px;
+    }
     #numero {
         display: flex;
         justify-content: center;
