@@ -31,15 +31,6 @@ body{
 h1{
     margin: 20px;
 }
-button{
-    cursor: pointer;
-    padding: 20px;
-    background: #A1AEF5;
-    border: none;
-    border-radius: 42px;
-    width: 150px;
-    font-size: 20px;
-}
 
 #cliente{
     background-color: rgb(227, 255, 255);
