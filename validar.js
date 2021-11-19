@@ -7,12 +7,12 @@ function validar() {
     }
 
             if ((dados.login == login) && (dados.senha == senha)) {
-                console.log("estou aqui")
+                console.log("estou aqui");
                 document.getElementById("entrar").disabled=false;
                 return false;
         }else {
             alert("Login ou Senha invalida");
-            console.log("estou aqui5")
+            console.log("estou aqui5");
             return true;
         }
 
