@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -112,7 +113,7 @@ body {
 }
 
 #conteiner {
-    background: transparent url(https://cursoinglesinstrumental.ml/ingles_instrumental.jpg) no-repeat right -255px;
+    background: transparent url(https://cursoinglesinstrumental.ml/IMG/ingles_instrumental.jpg) no-repeat right -255px;
     mix-blend-mode: luminosity;
     height: 250px;
     background-size: 100%;
