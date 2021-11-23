@@ -43,6 +43,7 @@ body {
     margin-bottom: 4rem;
     box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.1);
     position: fixed;
+    border-radius: 0px 0px 25px 25px;
 }
 
 #logo {
