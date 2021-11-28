@@ -109,6 +109,7 @@ body {
 }
 
 #menuling,#linguagem a {
+    list-style:none;
     padding: 0px 2px;
     color: #d98e04;
     text-decoration: none;
