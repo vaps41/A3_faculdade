@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -82,21 +83,41 @@ body {
     text-decoration: none;
     width: max-content;
 }
-.home{
-    padding:0px 2px;
+
+.home {
+    padding: 0px 2px;
     color: #d98e04;
 }
 
-.home :hover {
-    background:#7686a6;
+.home :hover,#menuling:hover {
+    background: #7686a6;
     border-radius: 5px;
     text-decoration: underline;
-    padding:0px 2px;
+    padding: 0px 2px;
 }
 
 #menu ul li {
     margin: 0px 10px;
     width: max-content;
+}
+
+#linguagem {
+    display: none;
+    position: absolute;
+    text-align: left;
+    width: 5px;
+}
+
+#menuling,#linguagem a {
+    padding: 0px 2px;
+    color: #d98e04;
+    text-decoration: none;
+}
+#linguagem a:hover{
+    background:#7686a6;
+    border-radius: 10px;
+    padding:3px 5px;
+    margin: 10px 0px;
 }
 
 #numero {
@@ -106,8 +127,8 @@ body {
     font-size: 20px;
 }
 
-#segura {
-    background-color:#dce6f285;
+.segura {
+    background-color: #dce6f285;
     border-radius: 60px;
     margin: 0px 70px;
     box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.1);
@@ -138,7 +159,7 @@ body {
     align-items: center;
 }
 
-#contcubo1 {
+.contcubo1 {
     background-color: #dce6f224;
     border-radius: 60px;
     height: auto;
@@ -150,6 +171,7 @@ body {
     line-height: 40px;
     color: #7686a6;
 }
+
 #inte {
     margin-top: 50px;
     text-align: center;
@@ -162,7 +184,7 @@ body {
     color: #7686a6;
 }
 
-#inte button{
+#inte button {
     cursor: pointer;
     padding: 20px;
     background: #A1AEF5;
@@ -173,7 +195,8 @@ body {
     margin-bottom: 150px;
     color: #f77f29;
 }
-#inte button:hover{
+
+#inte button:hover {
     cursor: pointer;
     padding: 20px;
     background: #7f90f1;
@@ -185,26 +208,31 @@ body {
     margin-bottom: 150px;
     color: #f77f29;
 }
+
 #roda_pe2 {
     text-align: center;
     color: #FFFFFF;
     background-color: #000000;
     padding: 10px 0px;
 }
-#chat{
-    display:none;
+
+#chat {
+    display: none;
     background: transparent;
 }
-#professor{
+
+#professor {
     margin-top: 0rem;
     max-height: 100%;
     max-width: 100%;
 }
-#aplicativo{
+
+#aplicativo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 @media (max-width:550px) {
     #corpo {
         width: 100%;
@@ -212,6 +240,7 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+
     #header {
         display: flex;
         flex-wrap: wrap;
@@ -224,13 +253,16 @@ body {
         position: fixed;
         height: 11rem;
     }
-    #menu ul{
+
+    #menu ul {
         margin-top: -25px;
         width: max-content;
     }
-    #title img{
+
+    #title img {
         width: 40px;
     }
+
     #numero {
         display: flex;
         justify-content: center;
@@ -238,12 +270,14 @@ body {
         font-size: 15px;
         margin-top: -20px;
     }
-    #segura {
-        background-color:#dce6f285;
+
+    .segura {
+        background-color: #dce6f285;
         border-radius: 60px;
         margin: 0px 15px;
         box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.1);
     }
+
     #conteiner {
         background: none;
         mix-blend-mode: normal;
@@ -252,17 +286,18 @@ body {
         position: inherit;
         background-origin: border-box;
         border-radius: 0;
-        margin:50px 0px;
-        padding:20px 0px;
+        margin: 50px 0px;
+        padding: 20px 0px;
         margin-top: 15rem;
     }
+
     #conteiner h1 {
         margin: 0px 50px;
         padding: 5px 10px;
         height: 65px;
         display: flex;
         flex-wrap: wrap;
-        position:static;
+        position: static;
         top: 271px;
         font-size: 20px;
         color: #fff;
@@ -270,7 +305,8 @@ body {
         border-radius: 50px;
         align-items: center;
     }
-    #contcubo1 {
+
+    .contcubo1 {
         background-color: #dce6f224;
         border-radius: 60px;
         height: auto;
@@ -282,19 +318,23 @@ body {
         line-height: 40px;
         color: #7686a6;
     }
-    #contcubo1 h1{
+
+    .contcubo1 h1 {
         font-size: 25px;
     }
+
     #inte {
         margin-top: 50px;
         text-align: center;
         margin-bottom: 90px;
     }
+
     #inte h2 {
         font-size: 27px;
         margin-bottom: 20px;
         color: #7686a6;
     }
+
     #inte button {
         cursor: pointer;
         padding: 20px;
@@ -307,6 +347,7 @@ body {
         color: #f77f29;
         box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.1);
     }
+
     #inte button:hover {
         cursor: pointer;
         padding: 20px;
@@ -319,14 +360,16 @@ body {
         margin-bottom: 90px;
         color: #f77f29;
     }
-        #roda_pe2 {
+
+    #roda_pe2 {
         width: 100%;
         text-align: center;
         color: #FFFFFF;
         background-color: #000000;
         padding: 10px 0px;
     }
-        #professor{
+
+    #professor {
         margin-top: 4rem;
         max-height: 100%;
         max-width: 100%;
