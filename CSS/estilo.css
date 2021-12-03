@@ -264,7 +264,7 @@ body {
     #title img {
         width: 40px;
     }
-    #menu ul a li{
+    #menu ul a{
         flex-wrap: wrap;
         display: flex;
     }
