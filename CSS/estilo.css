@@ -256,6 +256,8 @@ body {
     }
 
     #menu ul {
+        display: flex;
+        flex-wrap: wrap;
         margin-top: -25px;
         width: max-content;
     }
