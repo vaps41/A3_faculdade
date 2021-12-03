@@ -255,15 +255,18 @@ body {
         height: 11rem;
     }
 
-    #menu ul {
+    #menu ul{
         display: flex;
-        flex-wrap: wrap;
         margin-top: -25px;
         width: max-content;
     }
 
     #title img {
         width: 40px;
+    }
+    #menu ul li{
+        flex-wrap: wrap;
+        display: flex;
     }
 
     #numero {
