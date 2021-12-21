@@ -22,8 +22,8 @@ body {
     height: auto;
     width: 100%;
     align-items: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #corpo {
@@ -67,6 +67,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: max-content;
+    gap: 0px 50px;
 }
 
 #menu ul {
@@ -113,6 +114,7 @@ body {
     padding: 0px 2px;
     color: #d98e04;
     text-decoration: none;
+    margin: 0px 0px 0px 10px;
 }
 #linguagem a:hover{
     background:#7686a6;
@@ -223,7 +225,7 @@ body {
 }
 
 #professor {
-    margin-top: 0rem;
+    margin-top: 10rem;
     max-height: 100%;
     max-width: 100%;
 }
@@ -247,7 +249,7 @@ body {
         flex-wrap: wrap;
         background-color: #dce6f2;
         justify-content: space-around;
-        width: 100%;
+        width: 99%;
         margin-bottom: 40px;
         font-size: 25px;
         margin-bottom: 4rem;
@@ -274,7 +276,6 @@ body {
         justify-content: center;
         align-items: center;
         font-size: 15px;
-        margin-top: -20px;
     }
 
     .segura {
@@ -368,7 +369,7 @@ body {
     }
 
     #roda_pe2 {
-        width: 100%;
+        width:auto;
         text-align: center;
         color: #FFFFFF;
         background-color: #000000;
@@ -376,7 +377,7 @@ body {
     }
 
     #professor {
-        margin-top: 4rem;
+        margin-top: 40rem;
         max-height: 100%;
         max-width: 100%;
     }
