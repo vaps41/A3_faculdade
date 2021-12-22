@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    text-decoration-color: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration-style: none;
+    text-decoration: none;
+}
+h1{
+    margin: 20px;
+}
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto;
+    background-color:white;
+}
+#cliente{
+    background-color: rgb(227, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100%;
+    flex-direction: column;
+}
+#cliente form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.input_text{
+    border-radius: 25px;
+    background-color: #fff;
+}
+.estilo{
+    cursor: pointer;
+    padding: 10px;
+    background: #A1AEF5;
+    border: none;
+    border-radius: 42px;
+    width: 166px;
+    font-size: 20px;
+}
+#volta{
+    align-items: center;
+    text-align: center;
+}
+#msn_suporte #entrar{
+    margin: 10px auto;
+}
+#msn_suporte .input_text{
+    margin:5px 0px;
+    font-size: 15pt;
+}
+#msn_suporte{
+    display:inline;
+}
+@media (max-width:550px) {
+    #msn_suporte{
+        display: block;
+        margin-top:250px;
+    }
+    #cliente{
+        background-color: rgb(227, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:88vh;
+        width: 100%;
+        flex-direction: column;
+    }
+}
