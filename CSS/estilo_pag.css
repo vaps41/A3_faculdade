@@ -15,7 +15,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    margin: auto auto;
     background-color:white;
 }
 #corpo{
@@ -33,19 +33,7 @@ h1{
     margin: 20px;
 }
 
-#cliente{
-    background-color: rgb(227, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
-}
-#cliente form{
-    display: flex;
-    gap: 5px;
-    flex-direction: column;
 
-}
 .estilo{
     cursor: pointer;
     padding: 10px;
@@ -55,11 +43,5 @@ h1{
     width: 166px !important;
     font-size: 20px;
 }
-#login,#senha{
-    border-radius: 25px;
-    background-color: #fff;
-}
-#volta{
-    align-items: center;
-    text-align: center;
-}
+
+
