@@ -377,7 +377,7 @@ body {
     }
 
     #professor {
-        margin-top:4rem;
+        margin-top:4rem !important;
         max-height: 100%;
         max-width: 100%;
     }
