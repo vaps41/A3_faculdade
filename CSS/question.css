@@ -112,10 +112,4 @@
         background-color: #000000;
         padding: 10px 0px;
     }
-    #footer{
-        position:absolute;
-        bottom: 0;
-        left: 0;
-        right:0;
-    }
 }
