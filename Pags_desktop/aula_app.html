@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÁREA DE ESTUDO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://intensiveenglish.website/CSS/estilo.css">
+    <link rel="stylesheet" href="https://intensiveenglish.website/CSS/question.css">
+</head>
+
+<body>
+    <div id="corpo">
+        <header id="header">
+            <div id="logo">
+                <img src="https://intensiveenglish.website/IMG/logo.png" alt="Logo" />
+            </div>
+            <nav id="menu">
+                <ul>
+                    <a class="home" href="https://intensiveenglish.website/Pags_Mobile/app.html">
+                        <li>Home</li>
+                    </a>
+                    <a class="home" href="https://intensiveenglish.website/Pags_Mobile/suporte_app.html">
+                        <li>Suporte</li>
+                    </a>
+                    <a class="home" href="https://intensiveenglish.website/Pags_Mobile/criacao_pag_app.html">
+                        <li>Sobre</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <div id="corpo_question">
+            <div id="professor">
+                <div id="title_question">
+                    <h1>Vamos testar o seu nível de inglês?</h1>
+                    <div>
+                        <button class="estilo" onclick="aceito()">SIM</button>
+                        <button class="estilo" onclick='prova(questao="7")'>NÃO</button>
+                    </div>
+                </div>
+                <div id="questoes">
+                    <h3>Question</h3>
+                    <p>The sky color __ blue;</br>
+                        Pele __ the best player of all time;</br>
+                        English __ the biggest language spoken in the world;</p></br>
+                    <input type="radio" name="question" id="q1" value="1">
+                    <label for="are/ am / are" id="qt1"> are/ am / are</label>
+                    <input type="radio" name="question" id="q2" value="2">
+                    <label for="is / am / are" id="qt2"> is / am / are</label>
+                    <input type="radio" name="question" id="q3" value="3">
+                    <label for="is / is / is" id="qt3"> is / is / is</label>
+                    <input class="estilo" type="button" value="Responder" onclick="validacao()">
+                </div>
+            </div>
+            <div id="video_conteudo">
+                <details id="inicio">
+                    <summary id="bronze" class="caixa">Bronze Course 🥉</summary>
+                    <div class="video">
+                        <iframe width="80%" height="350px" src="https://www.youtube.com/embed/H198LR4uQ14?controls=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <button onclick='prova(questao="0")'>Voltar na Questão</button>
+                </details>
+                <details id="interned">
+                    <summary id="silver" class="caixa">Silver Course 🥈</summary>
+                    <div class="video">
+                        <iframe width="80%" height="350px" src="https://www.youtube.com/embed/RBR84OaTxPU?controls=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <button onclick='prova(questao="0")'>Voltar na Questão</button>
+                </details>
+                <details id="avanco">
+                    <summary id="gold" class="caixa">Gold Course 🏅</summary>
+                    <div class="video">
+                        <iframe width="80%" height="350px" src="https://www.youtube.com/embed/6_43oROZEZI?controls=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <button onclick='prova(questao="0")'>Voltar na Questão</button>
+                </details>
+            </div>
+        </div>
+
+</body>
+<script src="https://intensiveenglish.website/JS/js_question.js"></script>
+
+
+</html>
