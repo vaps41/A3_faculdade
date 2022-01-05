@@ -9,17 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://intensiveenglish.website/CSS/estilo.css"> -->
-    <link rel="stylesheet" href="../CSS/estilo.css">
-    <link rel="stylesheet" href="../CSS/estilo_login.css">
-    <link rel="stylesheet" href="../CSS/question.css">
+    <link rel="stylesheet" href="https://intensiveenglish.website/CSS/estilo.css">
+    <link rel="stylesheet" href="https://intensiveenglish.website/CSS/estilo_login.css">
+    <link rel="stylesheet" href="https://intensiveenglish.website/CSS/question.css">
+    <!-- <link rel="stylesheet" href="../CSS/question.css">
+    <link rel="stylesheet" href="../CSS/estilo.css"> -->
 </head>
 
 <body>
     <div id="corpo">
         <header id="header">
             <div id="logo">
-                <img src="../IMG/logo.png" alt="Logo" />
+                <img src="https://intensiveenglish.website/IMG/logo.png" alt="Logo" />
             </div>
             <nav id="menu">
                 <ul>
@@ -37,7 +38,7 @@
                     <h3>(11) 9 1234-5678</h3>
                     <div id="whatsapp">
                         <div id="title">
-                            <img src="../IMG/icon_whatsapp.png" width="75px">
+                            <img src="https://intensiveenglish.website/IMG/icon_whatsapp.png" width="75px">
                         </div>
                     </div>
                 </div>
@@ -49,7 +50,7 @@
                     <h1>Vamos testar o seu nível de inglês?</h1>
                     <div>
                         <button class="estilo" onclick="aceito()">SIM</button>
-                        <button class="estilo" onclick="poxa()">NÃO</button>
+                        <button class="estilo" onclick='prova(questao="7")'>NÃO</button>
                     </div>
                 </div>
                 <div id="questoes">
@@ -66,7 +67,7 @@
                     <input class="estilo" type="button" value="Responder" onclick="validacao()">
                 </div>
             </div>
-            <div>
+            <div id="video_conteudo">
                 <details id="inicio">
                     <summary id="bronze" class="caixa">Bronze Course 🥉</summary>
                     <div class="video">
@@ -75,6 +76,7 @@
                             allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
+                    <button onclick='prova(questao="0")'>Voltar na Questão</button>
                 </details>
                 <details id="interned">
                     <summary id="silver" class="caixa">Silver Course 🥈</summary>
@@ -84,6 +86,7 @@
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
+                    <button onclick='prova(questao="0")'>Voltar na Questão</button>
                 </details>
                 <details id="avanco">
                     <summary id="gold" class="caixa">Gold Course 🏅</summary>
@@ -93,6 +96,7 @@
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
+                    <button onclick='prova(questao="0")'>Voltar na Questão</button>
                 </details>
             </div>
         </div>
@@ -102,11 +106,10 @@
             <div>
                 <img src="https://intensiveenglish.website/IMG/aplicativo.jpg" alt="Qr code do aplicativo">
             </div>
-            <a href="https://bit.ly/app_curso_ingles">Download APP</a>
+            <a href="https://intensiveenglish.website/APP_MOBILEAPP/APP_CURSO_INGLES.apk">Download APP</a>
             <p><b>Disponível apenas para Android</b></p>
         </div>
-        </br>
-        <footer>
+        <footer id="footer">
             <div id="roda_pe2">
                 <h4> ©Copyright <span id="hoje"></span> todos os direitos reservados <a href="https://github.com/vaps41"> Victor Andrade</a></h4>
             </div>
@@ -114,7 +117,7 @@
     </div>
 
 </body>
-<script src="../JS/chatbot.js"></script>
-<script src="../JS/js_question.js"></script>
+<script src="https://intensiveenglish.website/JS/js_question.js"></script>
+<!-- <script src="../JS/js_question.js"></script> -->
 
 </html>
