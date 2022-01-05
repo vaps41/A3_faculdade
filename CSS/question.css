@@ -31,7 +31,7 @@
     text-align: center;
     border-radius: 5px;
     border:none;
-    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.1);
+    box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.3);
     margin: 10px auto;
 }
 #bronze,#silver,#gold{
@@ -51,25 +51,34 @@
     align-items: left;
     text-align: left;
 }
+#video_conteudo{
+    margin-bottom: 5px;
+    background: #FFF;
+    position: absolute;
+    z-index: 3;
+}
 #roda_pe2 {
     text-align: center;
     color: #FFFFFF;
     background-color: #000000;
     padding: 10px 0px;
-    position:absolute;
-    bottom: 0;
-    left: 0;
-    right:0;
 }
 #roda_pe2 a {
     font:bolder;
     color: #FFF;
 }
+#footer{
+    display: block;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+}
 @media (max-width:550px) {
     #bronze,#silver,#gold{
         display: none;
         padding: 5px;
-        width: 450px;
+        width: 400px;
         cursor: pointer;
         font-size: 20px;
     }
@@ -99,5 +108,11 @@
         width:100%;
         align-items: center;
         text-align: center;
+    }
+    #roda_pe2 {
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #000000;
+        padding: 10px 0px;
     }
 }
