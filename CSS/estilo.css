@@ -45,7 +45,6 @@ body {
     box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.1);
     position:fixed;
     border-radius: 0px 0px 25px 25px;
-    z-index: 2;
 }
 
 #logo {
@@ -139,7 +138,7 @@ body {
 }
 
 #conteiner {
-    background: transparent url(https://intensiveenglish.website//IMG/ingles_instrumental.jpg) no-repeat right -255px;
+    background: transparent url(https://cursoinglesinstrumental.ml/IMG/ingles_instrumental.jpg) no-repeat right -255px;
     mix-blend-mode: luminosity;
     height: 250px;
     background-size: 100%;
@@ -156,7 +155,7 @@ body {
     display: flex;
     position:sticky;
     top: 230px;
-    font-size: 25px;
+    font-size: 35px;
     color: #fff;
     background: #5d626e80;
     border-radius: 50px;
@@ -169,14 +168,11 @@ body {
     height: auto;
     font-family: Roboto;
     font-style: normal;
-    font-size: 18px;
+    font-size: 25px;
     text-align: justify;
     padding: 50px;
     line-height: 40px;
     color: #7686a6;
-}
-.contcubo1 h1{
-    font-size: 25px;
 }
 
 #inte {
@@ -186,7 +182,7 @@ body {
 }
 
 #inte h2 {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 20px;
     color: #7686a6;
 }
@@ -221,6 +217,10 @@ body {
     color: #fff;
     background-color: #000000;
     padding: 10px 0px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
 }
 #roda_pe2 a {
     font:bolder;
@@ -232,13 +232,12 @@ body {
     width: auto auto;
     align-items: center;
     text-align: center;
-    margin: 8rem auto 3rem auto;
+    margin: 8rem auto 10rem auto;
 }
 #aplicativo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 14px;
 }
 
 @media (max-width:550px) {
@@ -256,7 +255,7 @@ body {
         justify-content: space-around;
         width: 99%;
         margin-bottom: 40px;
-        font-size: 19px;
+        font-size: 25px;
         margin-bottom: 4rem;
         position: fixed;
         height: 11rem;
@@ -311,7 +310,7 @@ body {
         flex-wrap: wrap;
         position: static;
         top: 271px;
-        font-size: 18px;
+        font-size: 20px;
         color: #fff;
         background: #5d626e80;
         border-radius: 50px;
@@ -324,7 +323,7 @@ body {
         height: auto;
         font-family: Roboto;
         font-style: normal;
-        font-size: 17px;
+        font-size: 20px;
         text-align: justify;
         padding: 25px 50px;
         line-height: 40px;
@@ -332,7 +331,7 @@ body {
     }
 
     .contcubo1 h1 {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     #inte {
@@ -342,7 +341,7 @@ body {
     }
 
     #inte h2 {
-        font-size: 17px;
+        font-size: 27px;
         margin-bottom: 20px;
         color: #7686a6;
     }
@@ -354,7 +353,7 @@ body {
         border: none;
         border-radius: 42px;
         width: 400px;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 90px;
         color: #f77f29;
         box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.1);
@@ -368,7 +367,7 @@ body {
         border-radius: 40px;
         width: 410px;
         height: 65px;
-        font-size: 16px;
+        font-size: 18px;
         margin-bottom: 90px;
         color: #f77f29;
     }
@@ -379,13 +378,6 @@ body {
         color: #FFFFFF;
         background-color: #000000;
         padding: 10px 0px;
-    }
-    #aplicativo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 12px;
-        margin: 0px 8px;
     }
     #corpo_question{
         display: flex;

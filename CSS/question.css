@@ -31,7 +31,7 @@
     text-align: center;
     border-radius: 5px;
     border:none;
-    box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.3);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.1);
     margin: 10px auto;
 }
 #bronze,#silver,#gold{
@@ -51,25 +51,19 @@
     align-items: left;
     text-align: left;
 }
-#video_conteudo{
-    margin-bottom: 5px;
-}
 #roda_pe2 {
     text-align: center;
     color: #FFFFFF;
     background-color: #000000;
     padding: 10px 0px;
-}
-#roda_pe2 a {
-    font:bolder;
-    color: #FFF;
-}
-#footer{
-    display: block;
     position:absolute;
     bottom: 0;
     left: 0;
     right:0;
+}
+#roda_pe2 a {
+    font:bolder;
+    color: #FFF;
 }
 @media (max-width:550px) {
     #bronze,#silver,#gold{
@@ -105,11 +99,5 @@
         width:100%;
         align-items: center;
         text-align: center;
-    }
-    #roda_pe2 {
-        text-align: center;
-        color: #FFFFFF;
-        background-color: #000000;
-        padding: 10px 0px;
     }
 }
