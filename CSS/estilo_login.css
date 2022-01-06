@@ -38,6 +38,7 @@ body{
 .input_text{
     border-radius: 25px;
     background-color: #fff;
+    padding: 10px 15px;
 }
 .estilo{
     cursor: pointer;
@@ -54,6 +55,7 @@ body{
 }
 #msn_suporte #entrar{
     margin: 10px auto;
+
 }
 #msn_suporte .input_text{
     margin:5px 0px;
@@ -61,6 +63,7 @@ body{
 }
 #msn_suporte{
     display:inline;
+    text-align: center;
 }
 @media (max-width:550px) {
     #msn_suporte{
