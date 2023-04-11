@@ -18,4 +18,4 @@ https://dialogflow.cloud.google.com/
 
 # 🔗 Site
 * Link para acessar o site deste repositório:
-https://intensiveenglish.website
+https://vaps41.github.io/Curso_ingles_instrumental
